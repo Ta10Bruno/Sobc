@@ -12,12 +12,9 @@ body{
 
 .logo{
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-.titulo{
-    padding-top: -20px;
-
-}
 h1{
     font-size: 15px;
     color: aliceblue;
