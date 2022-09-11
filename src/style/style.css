@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    background-image: url(../img/bg.svg);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.logo{
+    
+    padding-top: 30px;
+    
+}
+
+h1{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 22px;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1::after{
+    content: '▼';
+    margin-left: 5px;
+    opacity: 1;
+    animation: pisca .7s infinite;
+}
+
+@keyframes pisca{
+    0%,100%{
+        opacity: 1;
+    }
+    50%{
+        opacity:0;
+    }
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.contato{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding-bottom: 100px;
+}
+
+.img{
+    padding: 10px 120px;
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+}
+
+.img:hover{
+    border: 1px solid #18AEFF;
+    background-color: rgba(24, 174, 255, 0.5);
+    cursor: pointer;
+}
+
+.port{
+    padding: 20px 85px;
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+}
+
+.port:hover{
+    border: 1px solid #18AEFF;
+    background-color: rgba(24, 174, 255, 0.5);
+    cursor: pointer;
+}
