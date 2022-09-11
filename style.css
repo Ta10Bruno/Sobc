@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    background-image: url(./img/bg.svg);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+h1{
+    padding-top: -260px;
+    font-size: 15px;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.contato{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding-bottom: 100px;
+}
+
+.img{
+    padding: 10px 120px;
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+}
+
+.img:hover{
+    border: 2px solid blue;
+}
+
+.port{
+    padding: 20px 80px;
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+}
+
+.port:hover{
+    border: 2px solid blue;
+    color: blue;
+    cursor: pointer;
+}
